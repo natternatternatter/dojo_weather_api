@@ -46,7 +46,7 @@ function cityClick(element) {
         longitude = -96.7970;
     }
 
-    fetch(`https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&exclude=current,minutely,alerts&appid=b45a477c9b9c4ac40605e93dc5e55b9d`)
+    fetch(`https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&exclude=current,minutely,alerts&appid=`)
         .then(response => response.json())
         .then(response => {
             console.log(response);
