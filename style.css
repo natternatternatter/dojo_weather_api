@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+.extendedNavBar {
+    align-self: center;
+    background-color: skyblue;
+    width: 1400px;
+    height: 100px;
+    display: block;
+    z-index: -1;
+    position: relative;
+    top: 100px;
+}
+
+.navBar {
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navBarLeft {
+    width: 100%;
+    background-color: skyblue;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+} 
+
+
+.navBarRight {
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content:space-between;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.main {
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.mainTop {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.tempToggle {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#temperature {
+    margin-left: 10px;
+    height: 35px;
+    width: 70px;
+    border: 3px solid black;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.day1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 4;
+    height: 500px;
+    background-color: gainsboro;
+    margin: 25px 25px 25px 0;
+}
+
+.day2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 4;
+    height: 500px;
+    background-color:gainsboro;
+    margin:  25px 25px 25px 0;;
+}
+
+.day3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 4;
+    height: 500px;
+    background-color:gainsboro;
+    margin:  25px 25px 25px 0;
+}
+
+.day4 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 4;
+    height: 500px;
+    background-color:gainsboro;
+    margin: 25px 0;
+}
+
+.weatherPic {
+    border-radius: 50%;
+    height:225px;
+}
+
+.temps {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tempTextRed {
+    margin: 25px;
+    font-size: 35px;
+    font-weight: 500;
+    color: crimson;
+
+}
+
+.tempTextBlue {
+    margin: 25px;
+    font-size: 35px;
+    font-weight: 500;
+    color: skyblue;
+}
+
+.bottomCookie {
+    border: 3px solid black;
+    width: 1200px;
+    height: 160px;
+    display: flex;
+    position: fixed;
+    top: 500px;
+    justify-content: flex-start;
+    background-color: gainsboro;
+}
+
+.cookie img {
+    height: 150px;
+    margin-left: 30px;
+}
+
+.cookieWords {
+    height: 100%;
+    width: 675px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cookieButton {
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 75px;
+    align-self: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    height: 40px;
+    width: 175px;
+    border: 3px solid black;
+    background-color: dodgerblue;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0);
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="extendedNavBar"></div>
+    <div class="main">
+        <div class="navBar">
+            <div class="navBarLeft">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="navBarRight">
+                <h3 id="navCity1" onclick="cityClick(navCity1)" onclick="alert('Loading weather report')">Burbank</h3>
+                <h3 id="navCity2" onclick="cityClick(navCity2)" onclick="alert('Loading weather report')">Chicago</h3>
+                <h3 id="navCity3" onclick="cityClick(navCity3)" onclick="alert('Loading weather report')">Dallas</h3>
+            </div>
+        </div>
+        <div class="mainTop">
+            <h5 id="displayCity">San Jose</h5>
+            <div class="tempToggle">
+                <h2>show temperature in </h2>
+                <select name="temperature" id="temperature" onchange="changeTemp()">
+                    <option value="farenheit">°F</option>
+                    <option value="celcius">°C</option>
+                </select>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="day1">
+                <h3>Today</h3>
+                <img class="weatherPic" src="some_rain.png" alt="rain icon">
+                <h2>some rain</h2>
+                <div class="temps">
+                    <div class="tempTextRed">24°</div>
+                    <div class="tempTextBlue">18°</div>
+                </div>
+            </div>
+            <div class="day2">
+                <h3>Tomorrow</h3>
+                <img class="weatherPic" src="some_sun.png" alt="sun icon">
+                <h2>some sun</h2>
+                <div class="temps">
+                    <div class="tempTextRed">27°</div>
+                    <div class="tempTextBlue">19°</div>
+                </div>
+            </div>
+            <div class="day3">
+                <h3>Friday</h3>
+                <img class="weatherPic" src="some_clouds.png" alt="cloud icon">
+                <h2>some clouds</h2>
+                <div class="temps">
+                    <div class="tempTextRed">21°</div>
+                    <div class="tempTextBlue">16°</div>
+                </div>
+            </div>
+            <div class="day4">
+                <h3>Saturday</h3>
+                <img class="weatherPic" src="some_sun.png" alt="sun icon">
+                <h2>some sun</h2>
+                <div class="temps">
+                    <div class="tempTextRed">26°</div>
+                    <div class="tempTextBlue">21°</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomCookie">
+            <div class="cookie">
+                <img src="cookie.png" alt="picture of a cookie">
+            </div>
+            <div class="cookieWords">
+                <h4>Stop! Cookie time</h4>
+                <h2>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                    features and to analyse our traffic. <a href="">Read more...</a></h2>
+            </div>
+            <button class="cookieButton" onclick="hide(cookiePopUp)">
+                <h2>I Accept</h2>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
